@@ -14,6 +14,7 @@
 		632ED4A31C207D7D0050B0D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 632ED4A11C207D7D0050B0D8 /* LaunchScreen.storyboard */; };
 		632ED4AE1C207D7D0050B0D8 /* BingoGame01Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632ED4AD1C207D7D0050B0D8 /* BingoGame01Tests.swift */; };
 		632ED4B91C207D7D0050B0D8 /* BingoGame01UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632ED4B81C207D7D0050B0D8 /* BingoGame01UITests.swift */; };
+		632ED4C71C207E5E0050B0D8 /* bingocard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 632ED4C61C207E5E0050B0D8 /* bingocard.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		632ED4B41C207D7D0050B0D8 /* BingoGame01UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BingoGame01UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		632ED4B81C207D7D0050B0D8 /* BingoGame01UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BingoGame01UITests.swift; sourceTree = "<group>"; };
 		632ED4BA1C207D7D0050B0D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		632ED4C61C207E5E0050B0D8 /* bingocard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bingocard.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				632ED4981C207D7D0050B0D8 /* AppDelegate.swift */,
 				632ED49A1C207D7D0050B0D8 /* ViewController.swift */,
 				632ED49C1C207D7D0050B0D8 /* Main.storyboard */,
+				632ED4C61C207E5E0050B0D8 /* bingocard.jpg */,
 				632ED49F1C207D7D0050B0D8 /* Assets.xcassets */,
 				632ED4A11C207D7D0050B0D8 /* LaunchScreen.storyboard */,
 				632ED4A41C207D7D0050B0D8 /* Info.plist */,
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				632ED4A31C207D7D0050B0D8 /* LaunchScreen.storyboard in Resources */,
+				632ED4C71C207E5E0050B0D8 /* bingocard.jpg in Resources */,
 				632ED4A01C207D7D0050B0D8 /* Assets.xcassets in Resources */,
 				632ED49E1C207D7D0050B0D8 /* Main.storyboard in Resources */,
 			);
@@ -351,7 +355,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -389,7 +393,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -401,6 +405,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BingoGame01/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.litech.BingoGame01;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,6 +417,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BingoGame01/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.litech.BingoGame01;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -485,6 +491,7 @@
 				632ED4BF1C207D7D0050B0D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		632ED4C01C207D7D0050B0D8 /* Build configuration list for PBXNativeTarget "BingoGame01Tests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +500,7 @@
 				632ED4C21C207D7D0050B0D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		632ED4C31C207D7D0050B0D8 /* Build configuration list for PBXNativeTarget "BingoGame01UITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +509,7 @@
 				632ED4C51C207D7D0050B0D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
