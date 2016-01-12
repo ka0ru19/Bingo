@@ -286,10 +286,15 @@ class ViewController: UIViewController {
     
     // 「ガラガラ」ボタンが押された時
     @IBAction func pickNumberButtonTapped(sender: UIButton) {
+        // 乱数を生成して
         let pickNumber = Int(arc4random_uniform(UInt32(50)))
+        // 配列に格納しておく
         pickedNumberArray.append(pickNumber)
+        // セルとの一致判定
         hantei(pickNumber)
+        // カード内のリーチビンゴの判定
         bingoHantei()
+        // 画面表示を更新
         display()
         
     }
